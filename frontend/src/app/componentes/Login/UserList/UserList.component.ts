@@ -25,7 +25,7 @@ export class UserListComponent implements OnInit, OnDestroy {
     this.getUsers();
     this.newUser = {name:"", email:"", password:""}
     this.logedUser = null;
-    
+    this.userEditable= {idAux:undefined,nameAux:"", passwordAux:"", emailAux:"",}
   }
   
   ngOnInit() {
@@ -67,7 +67,6 @@ export class UserListComponent implements OnInit, OnDestroy {
     if(name && email && password){   
       const us:User= { name:name, password: password, email: email, online:false};
       this.newUser=null;
-      console.log(us);
       return this.userService.createUser(us);
     }else{
       console.log("no ha entrado");
@@ -80,6 +79,7 @@ export class UserListComponent implements OnInit, OnDestroy {
     }
     console.log(nameAux+" - " +passwordAux +" - " +emailAux);
     const userAux= {userId:idAux,userData:{ name:nameAux, password:passwordAux, email:emailAux, online:false}};
+    this.userEditable ={idAux: undefined,nameAux:"", passwordAux:"", emailAux:""};
     return this.userService.updateUser(userAux);
   }
 
@@ -88,8 +88,8 @@ export class UserListComponent implements OnInit, OnDestroy {
     this.refres();
   }
 
-  loadEdition(user){
-
+  loadEdition(id:object, name:string, email:string,password: string,confirmPassword:string){
+    this.userEditable ={idAux: id,nameAux:name, passwordAux:password, emailAux:email}
   }
 
 

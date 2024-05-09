@@ -37,7 +37,7 @@ export class UserService {
   }
   
   async createUser(user: User){
-    return this.http.post<any>(this.url, user).subscribe();
+    return this.http.post(this.url, user).subscribe();
   }
 
   async updateUser(user:{userId:object, userData:{name:string, password:string, email:string, online:boolean}}){

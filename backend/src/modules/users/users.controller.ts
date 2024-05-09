@@ -9,7 +9,7 @@ export class UsersController {
 
   @Post()
   createUser(@Body() user: UserDto){  //mirar esto
-    return this.usersService.createUser(user);
+   return this.usersService.createUser(user);
   }
 
   @Delete('/:name')

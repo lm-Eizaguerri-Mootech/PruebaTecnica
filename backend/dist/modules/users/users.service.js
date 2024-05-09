@@ -22,7 +22,6 @@ let UsersService = class UsersService {
         this.userModel = userModel;
     }
     async createUser(user) {
-        console.log(user);
         const newUser = await this.confirmUser(user.name, user.password, user.email);
         console.log(newUser);
         await newUser.save();
@@ -43,7 +42,6 @@ let UsersService = class UsersService {
         if (userExistMail) {
             throw new common_1.ConflictException("Ya existe un usuario con este Email");
         }
-        await this.logIn_Out(userExistName._id);
         return new this.userModel({
             name: name,
             password: password,
@@ -58,7 +56,7 @@ let UsersService = class UsersService {
     async updateById(userId, data) {
         const userExist = await this.userModel.findById(userId);
         console.log("usuario encontrado");
-        console.log("El id es " + userId + " los datos son " + data.name);
+        console.log("El id es " + userId + " los datos son " + userId);
         if (data == undefined) {
             throw new common_1.ConflictException("Los datos no estan definidos");
         }
