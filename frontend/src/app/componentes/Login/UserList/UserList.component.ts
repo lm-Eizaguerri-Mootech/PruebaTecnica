@@ -25,7 +25,7 @@ export class UserListComponent implements OnInit, OnDestroy {
     this.getUsers();
     this.newUser = {name:"", email:"", password:""}
     this.logedUser = null;
-    this.userEditable= {idAux:null,nameAux:"", passwordAux:"", emailAux:"",}
+    this.userEditable= {idAux:Object,nameAux:"", passwordAux:"", emailAux:"",}
   }
   
   ngOnInit() {
