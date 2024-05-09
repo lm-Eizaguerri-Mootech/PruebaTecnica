@@ -6,14 +6,14 @@
 
         <div class="row">
           <div class="col-6 bg-info " aria-hidden="true">
-            <form (ngSubmit)="createUser(newConfirmPassword.value)">
+            <form (ngSubmit)="createUser(newName.value, newEmail.value, newPassword.value, newConfirmPassword.value)">
               <h2>Crear usuario</h2>
               <label class="mt-2">Nombre</label>
-              <input type="text" name="name" id="name" class="form-control mt-2" [(ngModel)]="newUser.name">
+              <input type="text" name="name" id="name" class="form-control mt-2" #newName [value]="">
               <label class="mt-2">Mail</label>
-              <input type="text" name="mail" id="mail" class="form-control mt-2" [(ngModel)]="newUser.email">
+              <input type="text" name="mail" id="mail" class="form-control mt-2" #newEmail [value]="">
               <label class="mt-2">Contraseña</label>
-              <input type="password" name="password" id="password" class="form-control mt-2"  [(ngModel)]="newUser.password">
+              <input type="password" name="password" id="password" class="form-control mt-2"  #newPassword [value]="">
               <label class="mt-2">Confirmar contraseña</label>
               <input type="password" name="passwordConfirm" id="passwordconfirm" #newConfirmPassword class="form-control mt-2">
               
@@ -50,6 +50,35 @@
         </form>
       </div>
     </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+
+            <table class="table table-dark table-bordered" >
+              <thead>
+                <tr>
+                  <th class="text-center" scope="col">Index</th>
+                  <th class="text-center" scope="col">Nick</th>
+                  <th class="text-center" scope="col">Correo</th>
+                  <th class="text-center" scope="col">Estado</th>
+                </tr>
+              </thead>
+              <tbody style="border-width: 5px;">
+                <tr *ngFor="let user of userList; let i = index">
+                  <th>{{i+1}}</th>
+                  <th>{{user.name}}</th>
+                  <th>{{user.email}}</th>
+                  <th>
+                    <samp *ngIf="user.Estado">Conectado</samp>
+                    <samp *ngIf="!user.Estado">Desconectado</samp>
+                  </th>
+                </tr>
+                
+              </tbody>
+            </table>
+
       </div>
     </div>
 

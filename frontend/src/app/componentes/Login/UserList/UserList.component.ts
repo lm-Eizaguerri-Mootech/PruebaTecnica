@@ -59,12 +59,12 @@ export class UserListComponent implements OnInit, OnDestroy {
     console.log(this.userList);  
   }
 
-  async createUser(newConfirmPassword:string){
-    if(newConfirmPassword != this.newUser.password){
+  async createUser(name:string, email:string, password:string,newConfirmPassword:string){
+    if(newConfirmPassword != password){
       return null;
     }
-    if(this.newUser.name && this.newUser.email && this.newUser.password){   
-      const us:User= { name:this.newUser.name, password: this.newUser.password, email:this.newUser.email, online:false};
+    if(name && email && password){   
+      const us:User= { name:name, password: password, email: email, online:false};
       this.newUser=null;
       console.log(us);
       return this.userService.createUser(us);
