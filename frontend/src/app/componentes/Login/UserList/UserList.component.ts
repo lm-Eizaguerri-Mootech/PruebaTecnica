@@ -25,7 +25,7 @@ export class UserListComponent implements OnInit, OnDestroy {
     this.getUsers();
     this.newUser = {name:"", email:"", password:""}
     this.logedUser = null;
-    this.userEditable= {idAux:undefined,nameAux:"", passwordAux:"", emailAux:"",}
+    this.userEditable= {idAux:null,nameAux:"", passwordAux:"", emailAux:"",}
   }
   
   ngOnInit() {
@@ -77,8 +77,11 @@ export class UserListComponent implements OnInit, OnDestroy {
     if(confirmPassword != passwordAux){
       return null;
     }
+    
     console.log(nameAux+" - " +passwordAux +" - " +emailAux);
     const userAux= {userId:idAux,userData:{ name:nameAux, password:passwordAux, email:emailAux, online:false}};
+    console.log(userAux);
+    
     this.userEditable ={idAux: undefined,nameAux:"", passwordAux:"", emailAux:""};
     return this.userService.updateUser(userAux);
   }

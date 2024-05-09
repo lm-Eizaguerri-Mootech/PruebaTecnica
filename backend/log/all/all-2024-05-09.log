@@ -1656,3 +1656,760 @@
 } 
 2024-05-09 13:08:24- [I] usuario encontrado 
 2024-05-09 13:08:24- [I] El id es undefined los datos son undefined 
+2024-05-09 13:23:48- [I] usuario encontrado 
+2024-05-09 13:23:48- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 13:23:48- [I] Definicion: ARANCHA 
+2024-05-09 13:23:48- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 13:23:58- [I] usuario encontrado 
+2024-05-09 13:23:58- [I] El id es undefined los datos son undefined 
+2024-05-09 13:30:03- [I] usuario encontrado 
+2024-05-09 13:30:03- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 13:30:03- [I] Definicion: ARANCHA 
+2024-05-09 13:30:03- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 13:32:08- [I] undefined 
+2024-05-09 13:32:08- [I] usuario encontrado 
+2024-05-09 13:32:08- [I] El id es undefined los datos son undefined 
+2024-05-09 13:32:15- [I] undefined 
+2024-05-09 13:32:15- [I] usuario encontrado 
+2024-05-09 13:32:15- [I] El id es undefined los datos son undefined 
+2024-05-09 13:33:22- [I] undefinedEstp es el id 
+2024-05-09 13:33:22- [I] usuario encontrado 
+2024-05-09 13:33:22- [I] El id es undefined los datos son undefined 
+2024-05-09 13:38:23- [I] {
+  name: 'PEDROPEDROPE',
+  password: '1234',
+  email: 'PEDRO@MAIL',
+  online: false,
+  _id: new ObjectId('663cb5af75176167490d5456')
+} 
+2024-05-09 13:38:25- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 13:38:25- [I] usuario encontrado 
+2024-05-09 13:38:25- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 13:38:25- [I] Definicion: ARANCHA 
+2024-05-09 13:38:25- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 13:39:23- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 13:39:23- [I] usuario encontrado 
+2024-05-09 13:39:23- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 13:39:23- [I] Definicion: ARANCHA 
+2024-05-09 13:39:23- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 13:47:12- [I] undefinedEstp es el id 
+2024-05-09 13:47:12- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 13:47:12- [I] usuario encontrado 
+2024-05-09 13:47:12- [I] El id es undefined los datos son undefined 
+2024-05-09 13:47:12- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 13:47:12- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 13:47:12- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 13:47:12- [I] usuario encontrado 
+2024-05-09 13:47:12- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 13:47:12- [I] Definicion: ARANCHA 
+2024-05-09 13:47:12- [I] usuario encontrado 
+2024-05-09 13:47:12- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 13:47:12- [I] Definicion: ARANCHA 
+2024-05-09 13:47:12- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 13:47:12- [I] El usuario ARANCHA se ha conectado 
+2024-05-09 13:47:12- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 13:47:12- [I] usuario encontrado 
+2024-05-09 13:47:12- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 13:47:12- [I] Definicion: ARANCHA 
+2024-05-09 13:47:12- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 13:47:12- [I] El usuario ARANCHA se ha desconectado 
+2024-05-09 13:47:12- [I] usuario encontrado 
+2024-05-09 13:47:12- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 13:47:12- [I] Definicion: ARANCHA 
+2024-05-09 13:47:12- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 13:47:12- [I] El usuario ARANCHA se ha conectado 
+2024-05-09 13:47:42- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 13:47:42- [I] usuario encontrado 
+2024-05-09 13:47:42- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 13:47:42- [I] Definicion: ARANCHA 
+2024-05-09 13:47:42- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: true,
+  __v: 0
+} 
+2024-05-09 13:47:42- [I] El usuario ARANCHA se ha desconectado 
+2024-05-09 13:48:37- [I] [object Object]Estp es el id 
+2024-05-09 13:49:58- [I] 6639cc1aaf960eb35544c540Estp es el id 
+2024-05-09 13:49:58- [I] usuario encontrado 
+2024-05-09 13:49:58- [I] El id es 6639cc1aaf960eb35544c540 los datos son 6639cc1aaf960eb35544c540 
+2024-05-09 13:49:58- [I] Definicion: FER 
+2024-05-09 13:49:58- [I] {
+  _id: new ObjectId('6639cc1aaf960eb35544c540'),
+  name: 'FER',
+  password: '1234',
+  email: 'FERNANDO@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 13:50:24- [I] 6639cc1aaf960eb35544c540Estp es el id 
+2024-05-09 13:50:24- [I] usuario encontrado 
+2024-05-09 13:50:24- [I] El id es 6639cc1aaf960eb35544c540 los datos son 6639cc1aaf960eb35544c540 
+2024-05-09 13:50:24- [I] Definicion: FERNANDO 
+2024-05-09 13:50:24- [I] {
+  _id: new ObjectId('6639cc1aaf960eb35544c540'),
+  name: 'FERNANDO',
+  password: '1234',
+  email: 'FERNANDO@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 13:58:52- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 13:58:52- [I] usuario encontrado 
+2024-05-09 13:58:52- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 13:58:52- [I] Definicion: ARANCHA 
+2024-05-09 13:58:52- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 13:59:04- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 13:59:04- [I] usuario encontrado 
+2024-05-09 13:59:04- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 13:59:04- [I] Definicion: ARANCHA 
+2024-05-09 13:59:04- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 13:59:17- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 13:59:17- [I] usuario encontrado 
+2024-05-09 13:59:17- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 13:59:17- [I] Definicion: ARANCHA 
+2024-05-09 13:59:17- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 14:02:40- [I] undefinedEstp es el id 
+2024-05-09 14:02:40- [I] usuario encontrado 
+2024-05-09 14:02:40- [I] El id es undefined los datos son undefined 
+2024-05-09 14:46:13- [I] undefinedEstp es el id 
+2024-05-09 14:46:13- [I] usuario encontrado 
+2024-05-09 14:46:13- [I] El id es undefined los datos son undefined 
+2024-05-09 14:46:13- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 14:46:13- [I] usuario encontrado 
+2024-05-09 14:46:13- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 14:46:13- [I] Definicion: ARANCHA 
+2024-05-09 14:46:13- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 14:46:13- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 14:46:13- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 14:46:13- [I] usuario encontrado 
+2024-05-09 14:46:13- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 14:46:13- [I] Definicion: ARANCHA 
+2024-05-09 14:46:13- [I] usuario encontrado 
+2024-05-09 14:46:13- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 14:46:13- [I] Definicion: ARANCHA 
+2024-05-09 14:46:13- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 14:46:13- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 14:46:13- [I] El usuario ARANCHA se ha conectado 
+2024-05-09 14:47:22- [I] undefinedEstp es el id 
+2024-05-09 14:47:22- [I] usuario encontrado 
+2024-05-09 14:47:22- [I] El id es undefined los datos son undefined 
+2024-05-09 14:47:22- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 14:47:22- [I] usuario encontrado 
+2024-05-09 14:47:22- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 14:47:22- [I] Definicion: ARANCHA 
+2024-05-09 14:47:22- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: true,
+  __v: 0
+} 
+2024-05-09 14:47:22- [I] El usuario ARANCHA se ha desconectado 
+2024-05-09 14:50:27- [I] undefinedEstp es el id 
+2024-05-09 14:50:27- [I] usuario encontrado 
+2024-05-09 14:50:27- [I] El id es undefined los datos son undefined 
+2024-05-09 14:50:42- [I] undefinedEstp es el id 
+2024-05-09 14:50:42- [I] usuario encontrado 
+2024-05-09 14:50:42- [I] El id es undefined los datos son undefined 
+2024-05-09 14:51:36- [I] undefinedEstp es el id 
+2024-05-09 14:51:36- [I] usuario encontrado 
+2024-05-09 14:51:36- [I] El id es undefined los datos son undefined 
+2024-05-09 14:52:26- [I] undefinedEstp es el id 
+2024-05-09 14:52:26- [I] usuario encontrado 
+2024-05-09 14:52:26- [I] El id es undefined los datos son undefined 
+2024-05-09 15:04:34- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:04:34- [I] usuario encontrado 
+2024-05-09 15:04:34- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:04:34- [I] Definicion: ARANCHA 
+2024-05-09 15:04:34- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:04:59- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:04:59- [I] usuario encontrado 
+2024-05-09 15:04:59- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:04:59- [I] Definicion: ARANCHA 
+2024-05-09 15:04:59- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:05:03- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:05:03- [I] usuario encontrado 
+2024-05-09 15:05:03- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:05:03- [I] Definicion: ARANCHA 
+2024-05-09 15:05:03- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:05:31- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:05:31- [I] usuario encontrado 
+2024-05-09 15:05:31- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:05:31- [I] Definicion: ARANCHA 
+2024-05-09 15:05:31- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:05:39- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:05:39- [I] usuario encontrado 
+2024-05-09 15:05:39- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:05:39- [I] Definicion: ARANCHA 
+2024-05-09 15:05:39- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:06:26- [I] undefinedEstp es el id 
+2024-05-09 15:06:26- [I] usuario encontrado 
+2024-05-09 15:06:26- [I] El id es undefined los datos son undefined 
+2024-05-09 15:06:48- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:06:48- [I] usuario encontrado 
+2024-05-09 15:06:48- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:06:48- [I] Definicion: ARANCHA 
+2024-05-09 15:06:48- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:13:22- [I] undefinedEstp es el id 
+2024-05-09 15:13:22- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:13:22- [I] usuario encontrado 
+2024-05-09 15:13:22- [I] El id es undefined los datos son undefined 
+2024-05-09 15:13:22- [I] usuario encontrado 
+2024-05-09 15:13:22- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:13:22- [I] Definicion: ARANCHA 
+2024-05-09 15:13:22- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:13:29- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:13:29- [I] usuario encontrado 
+2024-05-09 15:13:29- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:13:29- [I] Definicion: ARANCHA 
+2024-05-09 15:13:29- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:14:20- [I] undefinedEstp es el id 
+2024-05-09 15:14:20- [I] usuario encontrado 
+2024-05-09 15:14:20- [I] El id es undefined los datos son undefined 
+2024-05-09 15:15:09- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:15:09- [I] usuario encontrado 
+2024-05-09 15:15:09- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:15:09- [I] Definicion: ARANCHA 
+2024-05-09 15:15:09- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:20:43- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:20:43- [I] usuario encontrado 
+2024-05-09 15:20:43- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:20:43- [I] Definicion: ARANCHA 
+2024-05-09 15:20:43- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:21:05- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:21:05- [I] usuario encontrado 
+2024-05-09 15:21:05- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:21:05- [I] Definicion: ARANCHA 
+2024-05-09 15:21:05- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:21:13- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:21:13- [I] usuario encontrado 
+2024-05-09 15:21:13- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:21:13- [I] Definicion: ARANCHA 
+2024-05-09 15:21:13- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:21:18- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:21:18- [I] usuario encontrado 
+2024-05-09 15:21:18- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:21:18- [I] Definicion: ARANCHA 
+2024-05-09 15:21:18- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:21:24- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:21:24- [I] usuario encontrado 
+2024-05-09 15:21:24- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:21:24- [I] Definicion: ARANCHA 
+2024-05-09 15:21:24- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:22:25- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:22:25- [I] usuario encontrado 
+2024-05-09 15:22:25- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:22:25- [I] Definicion: ARANCHA 
+2024-05-09 15:22:25- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:22:54- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:22:54- [I] usuario encontrado 
+2024-05-09 15:22:54- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:22:54- [I] Definicion: ARANCHA 
+2024-05-09 15:22:54- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:23:42- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:23:42- [I] usuario encontrado 
+2024-05-09 15:23:42- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:23:42- [I] Definicion: ARANCHA 
+2024-05-09 15:23:42- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:23:45- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:23:45- [I] usuario encontrado 
+2024-05-09 15:23:45- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:23:45- [I] Definicion: ARANCHA 
+2024-05-09 15:23:45- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:23:48- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:23:48- [I] usuario encontrado 
+2024-05-09 15:23:48- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:23:48- [I] Definicion: ARANCHA 
+2024-05-09 15:23:48- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:23:54- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:23:54- [I] usuario encontrado 
+2024-05-09 15:23:54- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:23:54- [I] Definicion: ARANCHA 
+2024-05-09 15:23:54- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:23:54- [I] El usuario ARANCHA se ha conectado 
+2024-05-09 15:25:55- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:25:55- [I] usuario encontrado 
+2024-05-09 15:25:55- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:25:55- [I] Definicion: ARANCHA 
+2024-05-09 15:25:55- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: true,
+  __v: 0
+} 
+2024-05-09 15:25:55- [I] El usuario ARANCHA se ha desconectado 
+2024-05-09 15:26:04- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:26:04- [I] usuario encontrado 
+2024-05-09 15:26:04- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:26:04- [I] Definicion: ARANCHA 
+2024-05-09 15:26:04- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:26:04- [I] El usuario ARANCHA se ha conectado 
+2024-05-09 15:33:31- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:33:31- [I] usuario encontrado 
+2024-05-09 15:33:31- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:33:31- [I] Definicion: ARANCHA 
+2024-05-09 15:33:31- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:33:31- [I] El usuario ARANCHA se ha conectado 
+2024-05-09 15:33:45- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:33:45- [I] usuario encontrado 
+2024-05-09 15:33:45- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:33:45- [I] Definicion: ARANCHA 
+2024-05-09 15:33:45- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: true,
+  __v: 0
+} 
+2024-05-09 15:33:45- [I] El usuario ARANCHA se ha desconectado 
+2024-05-09 15:43:22- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:43:22- [I] usuario encontrado 
+2024-05-09 15:43:22- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:43:22- [I] Definicion: ARANCHA 
+2024-05-09 15:43:22- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:43:22- [I] El usuario ARANCHA se ha conectado 
+2024-05-09 15:44:02- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:44:02- [I] usuario encontrado 
+2024-05-09 15:44:02- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:44:02- [I] Definicion: ARANCHA 
+2024-05-09 15:44:02- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: true,
+  __v: 0
+} 
+2024-05-09 15:44:02- [I] El usuario ARANCHA se ha desconectado 
+2024-05-09 15:45:55- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:45:55- [I] usuario encontrado 
+2024-05-09 15:45:55- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:45:55- [I] Definicion: ARANCHA 
+2024-05-09 15:45:55- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:45:59- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:45:59- [I] usuario encontrado 
+2024-05-09 15:45:59- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:45:59- [I] Definicion: ARANCHA 
+2024-05-09 15:45:59- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:46:11- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:46:11- [I] usuario encontrado 
+2024-05-09 15:46:11- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:46:11- [I] Definicion: ARANCHA 
+2024-05-09 15:46:11- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:46:37- [I] {
+  name: 'LUIS',
+  password: '1234',
+  email: 'LUIS@MAIL.COM',
+  online: false,
+  _id: new ObjectId('663cd3bd4257e328316848f0')
+} 
+2024-05-09 15:46:39- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:46:39- [I] usuario encontrado 
+2024-05-09 15:46:39- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:46:39- [I] Definicion: ARANCHA 
+2024-05-09 15:46:39- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:50:11- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:50:11- [I] usuario encontrado 
+2024-05-09 15:50:11- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:50:11- [I] Definicion: ARANCHA 
+2024-05-09 15:50:11- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:50:24- [I] 663cb5af75176167490d5456Estp es el id 
+2024-05-09 15:50:24- [I] usuario encontrado 
+2024-05-09 15:50:24- [I] El id es 663cb5af75176167490d5456 los datos son 663cb5af75176167490d5456 
+2024-05-09 15:50:24- [I] Definicion: PEDROPEDROPE 
+2024-05-09 15:50:24- [I] {
+  _id: new ObjectId('663cb5af75176167490d5456'),
+  name: 'PEDROPEDROPE',
+  password: '1234',
+  email: 'PEDRO@MAIL',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:50:26- [I] 663cb5af75176167490d5456Estp es el id 
+2024-05-09 15:50:26- [I] usuario encontrado 
+2024-05-09 15:50:26- [I] El id es 663cb5af75176167490d5456 los datos son 663cb5af75176167490d5456 
+2024-05-09 15:50:26- [I] Definicion: PEDRO 
+2024-05-09 15:50:26- [I] {
+  _id: new ObjectId('663cb5af75176167490d5456'),
+  name: 'PEDRO',
+  password: '1234',
+  email: 'PEDRO@MAIL',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:50:27- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:50:27- [I] usuario encontrado 
+2024-05-09 15:50:27- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:50:27- [I] Definicion: ARANCHA 
+2024-05-09 15:50:27- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:50:36- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:50:36- [I] usuario encontrado 
+2024-05-09 15:50:36- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:50:36- [I] Definicion: ARANCHA 
+2024-05-09 15:50:36- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:53:55- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:53:55- [I] usuario encontrado 
+2024-05-09 15:53:55- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:53:55- [I] Definicion: ARANCHA 
+2024-05-09 15:53:55- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:56:21- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:56:21- [I] usuario encontrado 
+2024-05-09 15:56:21- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:56:21- [I] Definicion: ARANCHA 
+2024-05-09 15:56:21- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:56:45- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:56:45- [I] usuario encontrado 
+2024-05-09 15:56:45- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:56:45- [I] Definicion: ARANCHA 
+2024-05-09 15:56:45- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:57:11- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-09 15:57:11- [I] usuario encontrado 
+2024-05-09 15:57:11- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-09 15:57:11- [I] Definicion: ARANCHA 
+2024-05-09 15:57:11- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-09 15:57:36- [I] undefinedEstp es el id 
+2024-05-09 15:57:37- [I] usuario encontrado 
+2024-05-09 15:57:37- [I] El id es undefined los datos son undefined 

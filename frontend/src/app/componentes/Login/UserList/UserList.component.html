@@ -39,7 +39,7 @@
                 <button class="btn btn-block btn-primary mb-4 mt-4 w-100" type="submit">Guardar</button>
               </div>
               <div class="col-12">
-                <button class="btn btn-block btn-primary mb-4 mt-4 w-100" type="reset" >Borrar</button>
+                <button class="btn btn-block btn-primary mb-4 mt-4 w-100" type="reset" (click)="delete(userEditable.nameAux)">Borrar</button>
               </div>
             
         </form>
@@ -74,7 +74,7 @@
     </div>
       </div>
     </div>
-    -->
+  -->
     <div class="row">
       <div class="col-12">
 
@@ -94,14 +94,14 @@
 
                 <tr *ngFor="let user of userList; let i = index">
 
-                  <th>{{i+1}}</th>
+                  <th>{{user._id}}</th>
                   <th>{{user.name}}</th>
-                  <th>{{user.email}}</th>
+                  <th>{{user.email }}</th>
                   <th>
                     <samp *ngIf="user.Estado">Conectado</samp>
                     <samp *ngIf="!user.Estado">Desconectado</samp>
                   </th>
-                  <th><button class="btn btn-block btn-primary  w-100" (click)="loadEdition(user._id,user.name,user.email,user.password,user.passwordConfirm)">Editar</button></th>
+                  <th><button class="btn btn-block btn-primary  w-100" (click)="loadEdition(user._id, user.name, user.email, user.password, user.passwordConfirm)">Editar</button></th>
 
                 </tr>
                 

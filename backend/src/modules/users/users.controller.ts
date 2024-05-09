@@ -19,7 +19,8 @@ export class UsersController {
 
   @Put('/id')
   updateUserByID(@Body() user:{userId:object, userData:{name, password, email, online}}){
-
+    console.log(user.userId +"Estp es el id");
+    
     if(!user.userData.name){
       throw new ConflictException("Los datos estan incompletos")
     }

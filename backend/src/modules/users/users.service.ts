@@ -84,7 +84,6 @@ export class UsersService {
         
         if(userExist._id.toString() != userExistMail._id.toString()){
           console.log(userExist._id.toString() +" - " +userExistMail._id.toString());
-
           throw new ConflictException("El email ya existe en otro usuario");
         }
       }
@@ -105,8 +104,6 @@ export class UsersService {
 
   }
 
-
-
   async deleteUser(name: string){
     
     const userExist = await this.userModel.findOne({name});
@@ -117,8 +114,6 @@ export class UsersService {
       return userExist.deleteOne();
     }
   }
-
-
 
   async setLoggin(name:string, password: string){
     const userSeached = await this.userModel.findOne({name,password});

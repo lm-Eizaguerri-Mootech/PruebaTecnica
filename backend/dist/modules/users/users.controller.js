@@ -27,6 +27,7 @@ let UsersController = class UsersController {
         return this.usersService.deleteUser(name);
     }
     updateUserByID(user) {
+        console.log(user.userId + "Estp es el id");
         if (!user.userData.name) {
             throw new common_1.ConflictException("Los datos estan incompletos");
         }
