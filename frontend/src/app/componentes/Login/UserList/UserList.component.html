@@ -1,0 +1,58 @@
+<div class="row">
+  <div class="col-12">
+
+    <div class="row">
+      <div class="col-12 ">
+
+        <div class="row">
+          <div class="col-6 bg-info " aria-hidden="true">
+            <form (ngSubmit)="createUser(newConfirmPassword.value)">
+              <h2>Crear usuario</h2>
+              <label class="mt-2">Nombre</label>
+              <input type="text" name="name" id="name" class="form-control mt-2" [(ngModel)]="newUser.name">
+              <label class="mt-2">Mail</label>
+              <input type="text" name="mail" id="mail" class="form-control mt-2" [(ngModel)]="newUser.email">
+              <label class="mt-2">Contraseña</label>
+              <input type="password" name="password" id="password" class="form-control mt-2"  [(ngModel)]="newUser.password">
+              <label class="mt-2">Confirmar contraseña</label>
+              <input type="password" name="passwordConfirm" id="passwordconfirm" #newConfirmPassword class="form-control mt-2">
+              
+              <div class="row">
+                  <button class="btn btn-block btn-primary mb-4 mt-4 w-100" type="submit" >Crear</button>
+                  <button class="btn btn-block btn-primary mb-4 mt-4 w-100" type="button" (click)="refres()" >Refrescar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!--*ngFor="let o of userList"-->
+        <div class="row">
+          <div class="col-3 bg-info mx-5 my-3" *ngFor="let user of userList; let i = index" [attr.id]="'userDiv' + i" >
+        <form (ngSubmit)="updateUser(user._id,name.value, password.value,mail.value, confirmPassword.value)">
+         
+              <label>{{user._id}}</label>
+              <p></p>
+              <label class="mt-2">Nombre</label>
+              <input type="text" name="name" id="name" class="form-control mt-2" #name [value]="user.name">
+              <label class="mt-2">Mail</label>
+              <input type="text" name="mail" id="mail" class="form-control mt-2"  #mail [value]="user.email">
+              <label class="mt-2">Contraseña</label>
+              <input type="password" name="password" id="password" class="form-control mt-2"  #password [value]="user.password" >
+              <label class="mt-2">Confirmar contraseña</label>
+              <input type="password" name="passwordConfirm" id="passwordconfirm" class="form-control mt-2" #confirmPassword [value]="user.password">
+              
+              <div class="col-6">
+                <button class="btn btn-block btn-primary mb-4 mt-4 w-100" type="submit">Guardar</button>
+              </div>
+              <div class="col-6">
+                <button class="btn btn-block btn-primary mb-4 mt-4 w-100" type="reset" (click)="delete(user.name)">Borrar</button>
+              </div>
+            
+        </form>
+      </div>
+    </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>

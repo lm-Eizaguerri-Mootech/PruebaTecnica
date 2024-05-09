@@ -1,0 +1,32 @@
+<div class="row">
+  <div class="col-12 bg-secondary-subtle">
+
+    <div class="row">
+      <div class="col-12 ">
+
+        <div class="text-center ">
+          <h1>Login</h1>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+
+        <form (ngSubmit)="login()">
+          <div class="row for-group">
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name" class="form-control" [(ngModel)]="online.name">
+            <label for="name">Contraseña</label>
+            <input type="password" name="password" id="password" class="form-control" [(ngModel)]="online.password">
+            <label for="error"  id="error" *ngIf="error && !log">El usuario o contraseña son incorrectos</label>
+            <button class="btn btn-block btn-primary mb-4 mt-4 w-100" type="submit"  >Confirmar</button>
+            <!--<button class="btn btn-block btn-primary mb-4 mt-4 w-100" type="button" *ngIf="log===true" >Entrar</button> [routerLink]="['/userList'] (click)="sesionUp()"-->
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</div>
