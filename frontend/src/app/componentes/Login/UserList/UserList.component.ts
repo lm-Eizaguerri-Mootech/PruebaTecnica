@@ -16,6 +16,7 @@ export class UserListComponent implements OnInit, OnDestroy {
   public userList: User[];
   public logedUser:any;
   public newUser: UserModel;
+  public userEditable: {idAux:object, nameAux:string, passwordAux: string, emailAux:string}
   
   constructor(
     private userService: UserService,
@@ -87,6 +88,9 @@ export class UserListComponent implements OnInit, OnDestroy {
     this.refres();
   }
 
+  loadEdition(user){
+
+  }
 
 
 
