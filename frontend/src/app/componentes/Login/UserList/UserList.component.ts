@@ -3,7 +3,7 @@ import { Component, ElementRef, OnDestroy, OnInit, QueryList, ViewChildren, Host
 import { UserService } from 'src/app/services/user.service';
 import { UserModel } from '../../models/userModel';
 import { ActivatedRoute } from '@angular/router';
-import * as CryptoJS from 'crypto-js';
+
 
 @Component({
   selector: 'app-UserList',
@@ -16,7 +16,7 @@ export class UserListComponent implements OnInit, OnDestroy {
 
   public userList: User[];
   public logedUser:any;
-  public key:string;
+  
   public newUser: UserModel;
   public userEditable: {idAux:object, nameAux:string, passwordAux: string, emailAux:string}
   
@@ -28,7 +28,7 @@ export class UserListComponent implements OnInit, OnDestroy {
     this.newUser = {name:"", email:"", password:""}
     this.logedUser = null;
     this.userEditable= {idAux:undefined,nameAux:"", passwordAux:"", emailAux:"",}
-    this.key="miclavesecreta";
+    
   }
   
   ngOnInit() {
@@ -98,17 +98,20 @@ export class UserListComponent implements OnInit, OnDestroy {
   }
 
   loadEdition(id:object, name:string, email:string,password: string,confirmPassword:string){
-    console.log(id)
+    console.log(password);
+    password = this.uncoding(password);
+    console.log(password);
+    
+    
     this.userEditable ={idAux: id,nameAux:name, passwordAux:password, emailAux:email}
   }
 
   encoding(text:string):string{
-    const iv = CryptoJS.lib.WordArray.random(16);
-    return CryptoJS.AES.encypt(text, this.key, {iv}).toString();
+    return this.userService.encoding(text)
   }
 
   uncoding(code:string):string{
-    return CryptoJS.AES.decncypt(code, this.key).toString(CryptoJS.enc.Utf8);
+    return this.userService.uncoding(code)
 
   }
 

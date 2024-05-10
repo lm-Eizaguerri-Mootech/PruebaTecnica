@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { User } from '../componentes/models/user';
 import * as _ from 'lodash';
-
+import * as CryptoJS from 'crypto-js';
 
 
 
@@ -12,14 +12,14 @@ import * as _ from 'lodash';
 })
 export class UserService {
 
- 
+  public key:string;
   public url:string;
   public listUsers: User[];
 
   constructor(private http: HttpClient) { 
     this.url="http://localhost:3085/api/v1/users";
     this.listUsers = [];
-   
+    this.key="miclavesecreta";
   }
 
 
@@ -58,6 +58,14 @@ export class UserService {
 
     this.updateUser(user);
 
+  }
+
+  encoding(text:string):string{
+    return CryptoJS.AES.encrypt(text, this.key).toString();
+  }
+
+  uncoding(code:string):string{
+    return CryptoJS.AES.decrypt(code,this.key).toString(CryptoJS.enc.Utf8);
   }
 
  
