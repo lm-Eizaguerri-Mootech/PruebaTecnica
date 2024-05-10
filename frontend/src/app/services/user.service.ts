@@ -64,8 +64,8 @@ export class UserService {
     return CryptoJS.AES.encrypt(text, this.key).toString();
   }
 
-  uncoding(code:string):string{
-    return CryptoJS.AES.decrypt(code,this.key).toString(CryptoJS.enc.Utf8);
+  uncoding(code:string):any{
+    return CryptoJS.AES.decrypt(code,this.key).toString();
   }
 
  
