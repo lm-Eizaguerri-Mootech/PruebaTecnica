@@ -12,17 +12,18 @@ import * as _ from 'lodash';
 })
 export class UserService {
 
+ 
   public url:string;
   public listUsers: User[];
 
   constructor(private http: HttpClient) { 
     this.url="http://localhost:3085/api/v1/users";
-    this.listUsers = []
+    this.listUsers = [];
+   
   }
 
 
   async confirmUser(online:Online){
-    
     const finalUrl = this.url +"/loggin?name=" +online.name +"&password="+online.password;
 
     const user= await this.http.get(finalUrl);
@@ -30,6 +31,7 @@ export class UserService {
     return user;
     
   }
+
 
   async getUsers(){
     this.listUsers =[];
@@ -57,6 +59,8 @@ export class UserService {
     this.updateUser(user);
 
   }
+
+ 
   
 
 }

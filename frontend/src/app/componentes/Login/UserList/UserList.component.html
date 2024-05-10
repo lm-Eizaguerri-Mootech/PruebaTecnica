@@ -24,7 +24,7 @@
             </form>
           </div>
           <div class="col-5 bg-info mx-2" aria-hidden="true">
-            <form (ngSubmit)="updateUser(id.value,name.value,password.value,mail.value,confirmPassword.value)">
+            <form (ngSubmit)="updateUser(userEditable.idAux,name.value,password.value,mail.value,confirmPassword.value)">
               <h3>Editar usuario</h3>
               <label class="mt-2">Nombre</label>
               <input type="text" name="name" id="name" class="form-control mt-2" #name [value]="userEditable.nameAux">
@@ -46,7 +46,7 @@
           </div>
         </div>
         <!--*ngFor="let o of userList"-->
-        
+        <!--
         <div class="row">
           <div class="col-3 bg-info mx-5 my-3" *ngFor="let user of userList; let i = index" [attr.id]="'userDiv' + i" >
         <form (ngSubmit)="updateUser(user._id,name.value, password.value,mail.value, confirmPassword.value)">
@@ -58,7 +58,7 @@
               <label class="mt-2">Mail</label>
               <input type="text" name="mail" id="mail" class="form-control mt-2"  #mail [value]="user.email">
               <label class="mt-2">Contraseña</label>
-              <input type="password" name="password" id="password" class="form-control mt-2"  #password [value]="user.password" >
+              <input type="password" name="password" id="password" class="form-control mt-2"  #password [value]="resolveEncript(user.password)" >
               <label class="mt-2">Confirmar contraseña</label>
               <input type="password" name="passwordConfirm" id="passwordconfirm" class="form-control mt-2" #confirmPassword [value]="user.password">
               

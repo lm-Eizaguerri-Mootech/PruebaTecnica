@@ -3,6 +3,7 @@ import { Component, ElementRef, OnDestroy, OnInit, QueryList, ViewChildren, Host
 import { UserService } from 'src/app/services/user.service';
 import { UserModel } from '../../models/userModel';
 import { ActivatedRoute } from '@angular/router';
+import * as CryptoJS from 'crypto-js';
 
 @Component({
   selector: 'app-UserList',
@@ -15,6 +16,7 @@ export class UserListComponent implements OnInit, OnDestroy {
 
   public userList: User[];
   public logedUser:any;
+  public key:string;
   public newUser: UserModel;
   public userEditable: {idAux:object, nameAux:string, passwordAux: string, emailAux:string}
   
@@ -25,7 +27,8 @@ export class UserListComponent implements OnInit, OnDestroy {
     this.getUsers();
     this.newUser = {name:"", email:"", password:""}
     this.logedUser = null;
-    this.userEditable= {idAux:Object,nameAux:"", passwordAux:"", emailAux:"",}
+    this.userEditable= {idAux:undefined,nameAux:"", passwordAux:"", emailAux:"",}
+    this.key="miclavesecreta";
   }
   
   ngOnInit() {
@@ -64,7 +67,10 @@ export class UserListComponent implements OnInit, OnDestroy {
     if(newConfirmPassword != password){
       return null;
     }
-    if(name && email && password){   
+    if(name && email && password){
+      console.log(password);   
+      password = this.encoding(password);
+      console.log(password);
       const us:User= { name:name, password: password, email: email, online:false};
       this.newUser=null;
       return this.userService.createUser(us);
@@ -78,7 +84,7 @@ export class UserListComponent implements OnInit, OnDestroy {
       return null;
     }
     
-    console.log(nameAux+" - " +passwordAux +" - " +emailAux);
+    console.log(nameAux + " - " +passwordAux + " - " + emailAux);
     const userAux= {userId:idAux,userData:{ name:nameAux, password:passwordAux, email:emailAux, online:false}};
     console.log(userAux);
     
@@ -92,10 +98,18 @@ export class UserListComponent implements OnInit, OnDestroy {
   }
 
   loadEdition(id:object, name:string, email:string,password: string,confirmPassword:string){
+    console.log(id)
     this.userEditable ={idAux: id,nameAux:name, passwordAux:password, emailAux:email}
   }
 
+  encoding(text:string):string{
+    const iv = CryptoJS.lib.WordArray.random(16);
+    return CryptoJS.AES.encypt(text, this.key, {iv}).toString();
+  }
 
+  uncoding(code:string):string{
+    return CryptoJS.AES.decncypt(code, this.key).toString(CryptoJS.enc.Utf8);
 
+  }
 
 }
