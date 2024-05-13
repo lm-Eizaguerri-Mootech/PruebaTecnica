@@ -1914,3 +1914,15 @@
   online: false,
   _id: new ObjectId('663e076764254785c5344532')
 } 
+2024-05-10 13:56:51- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-10 13:56:51- [I] usuario encontrado 
+2024-05-10 13:56:51- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-10 13:56:51- [I] Definicion: ARANCHA 
+2024-05-10 13:56:51- [I] {
+  _id: new ObjectId('6639d12552b13678b74825f3'),
+  name: 'ARANCHA',
+  password: '1234',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  __v: 0
+} 

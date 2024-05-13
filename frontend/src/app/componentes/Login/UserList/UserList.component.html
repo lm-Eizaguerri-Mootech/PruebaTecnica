@@ -98,8 +98,8 @@
                   <th>{{user.name}}</th>
                   <th>{{user.email }}</th>
                   <th>
-                    <samp *ngIf="user.Estado">Conectado</samp>
-                    <samp *ngIf="!user.Estado">Desconectado</samp>
+                    <samp *ngIf="user.online">EN LINEA</samp>
+                    <samp *ngIf="!user.online">DESCONECTADO</samp>
                   </th>
                   <th><button class="btn btn-block btn-primary  w-100" (click)="loadEdition(user._id, user.name, user.email, user.password, user.passwordConfirm)">Editar</button></th>
 
