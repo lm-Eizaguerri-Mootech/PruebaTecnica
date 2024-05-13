@@ -117,7 +117,7 @@ export class UsersService {
     }
   }
 
-  async setLoggin(name:string, password: string){
+  async setLoggin(name: string, password: string){
     
     const userSeached = await this.userModel.findOne({name});
     

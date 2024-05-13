@@ -7,7 +7,7 @@ export class User{
   @Prop({ unique: true, uppercase: true, trim: true})
   name: string;
 
-  @Prop({ unique: false, uppercase: true, trim: true})
+  @Prop({ unique: false, trim: true})
   password: string;
 
   @Prop({ unique: true, uppercase: true, trim: true})

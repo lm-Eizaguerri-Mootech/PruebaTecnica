@@ -19,7 +19,7 @@ __decorate([
     __metadata("design:type", String)
 ], User.prototype, "name", void 0);
 __decorate([
-    (0, mongoose_1.Prop)({ unique: false, uppercase: true, trim: true }),
+    (0, mongoose_1.Prop)({ unique: false, trim: true }),
     __metadata("design:type", String)
 ], User.prototype, "password", void 0);
 __decorate([

@@ -69,10 +69,10 @@ export class UserListComponent implements OnInit, OnDestroy {
     }
     if(name && email && password){
       console.log(password);   
-      password = password+"";
-      password = this.encoding(password);
-      console.log(password);
-      const us:User= { name:name, password: password, email: email, online:false};
+      const pass = password+"";
+      const encodedPass = this.encoding(pass);
+      console.log(encodedPass);
+      const us:User= { name:name, password: encodedPass, email: email, online:false};
       this.newUser=null;
       return this.userService.createUser(us);
     }else{
@@ -86,7 +86,7 @@ export class UserListComponent implements OnInit, OnDestroy {
     }
     
     console.log(nameAux + " - " +passwordAux + " - " + emailAux);
-    const userAux= {userId:idAux,userData:{ name:nameAux, password:passwordAux, email:emailAux, online:false}};
+    const userAux= {userId:idAux,userData:{ name:nameAux, password:this.encoding(passwordAux), email:emailAux, online:false}};
     console.log(userAux);
     
     this.userEditable ={idAux: undefined,nameAux:"", passwordAux:"", emailAux:""};
@@ -98,13 +98,13 @@ export class UserListComponent implements OnInit, OnDestroy {
     this.refres();
   }
 
-  loadEdition(id:object, name:string, email:string,password: string,confirmPassword:string){
+  loadEdition(id:object, name:string, email:string,password){
     console.log(password);
     const auxPass = this.uncoding(password);
     console.log(auxPass);
     
     
-    this.userEditable ={idAux: id,nameAux:name, passwordAux:password, emailAux:email}
+    this.userEditable ={idAux: id,nameAux:name, passwordAux:auxPass, emailAux:email}
   }
 
   encoding(text:string):string{
@@ -118,6 +118,10 @@ export class UserListComponent implements OnInit, OnDestroy {
 
   compare(){
     this.userService.compare();
+  }
+
+  tryDecode(example){
+    this.userService.tryDecode(example);
   }
 
 }

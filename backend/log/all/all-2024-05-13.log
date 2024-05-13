@@ -317,3 +317,257 @@
   online: false,
   _id: new ObjectId('6641e9f96119d3374ef3e8ec')
 } 
+2024-05-13 12:26:42- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-13 12:26:43- [I] usuario encontrado 
+2024-05-13 12:26:43- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-13 12:26:56- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-13 12:26:56- [I] usuario encontrado 
+2024-05-13 12:26:56- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-13 12:27:46- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-13 12:27:46- [I] usuario encontrado 
+2024-05-13 12:27:46- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-13 12:28:41- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-13 12:28:41- [I] usuario encontrado 
+2024-05-13 12:28:41- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-13 12:29:20- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-13 12:29:20- [I] usuario encontrado 
+2024-05-13 12:29:20- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-13 12:37:18- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-13 12:37:18- [I] usuario encontrado 
+2024-05-13 12:37:18- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-13 12:39:38- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-13 12:39:38- [I] usuario encontrado 
+2024-05-13 12:39:38- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-13 12:40:01- [I] {
+  name: 'BENITO',
+  password: 'U2FSDGVKX18PVH/N66FKWP+FYZPQ2R8BJOYNOHFEY+E=',
+  email: 'BENITO@MAIL.COM',
+  online: false,
+  _id: new ObjectId('6641ee016119d3374ef3e905')
+} 
+2024-05-13 12:41:04- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-13 12:41:04- [I] usuario encontrado 
+2024-05-13 12:41:04- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-13 12:52:10- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-13 12:52:10- [I] usuario encontrado 
+2024-05-13 12:52:10- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-13 12:52:25- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-13 12:52:25- [I] usuario encontrado 
+2024-05-13 12:52:25- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-13 12:53:20- [I] {
+  name: 'MIGUEL',
+  password: 'U2FSDGVKX18ZNQMPWJOPMBF9ZBAS9YLFFEZYUJE/DMM=',
+  email: 'MIGUEL@MAIL.COM',
+  online: false,
+  _id: new ObjectId('6641f1206119d3374ef3e913')
+} 
+2024-05-13 12:57:50- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-13 12:57:50- [I] usuario encontrado 
+2024-05-13 12:57:50- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-13 12:58:07- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-13 12:58:07- [I] usuario encontrado 
+2024-05-13 12:58:07- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-13 13:04:51- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-13 13:04:51- [I] usuario encontrado 
+2024-05-13 13:04:51- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-13 13:05:40- [I] {
+  name: 'SUSANA',
+  password: 'U2FSDGVKX19XM0A+CFXI4EET938WMEUUSZFRISRNNRI=',
+  email: 'SUSANA@MAIL.COM',
+  online: false,
+  _id: new ObjectId('6641f4046119d3374ef3e921')
+} 
+2024-05-13 13:06:45- [I] {
+  name: 'LALA',
+  password: 'U2FSDGVKX18BIYATSI2X0FXOGZDEIKMMEHNIUT0FDHW=',
+  email: 'LALA@MAIL.COM',
+  online: false,
+  _id: new ObjectId('6641f4456119d3374ef3e927')
+} 
+2024-05-13 13:06:56- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-13 13:06:56- [I] usuario encontrado 
+2024-05-13 13:06:56- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-13 13:11:05- [I] {
+  name: 'DAVID',
+  password: 'U2FsdGVkX187h6LOIqny6UToZloCITRWQQkRnh4rKBI=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  _id: new ObjectId('6641f54915cc113889f1c82b')
+} 
+2024-05-13 13:12:19- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-13 13:12:19- [I] usuario encontrado 
+2024-05-13 13:12:19- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-13 13:12:43- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-13 13:12:43- [I] usuario encontrado 
+2024-05-13 13:12:43- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-13 13:12:55- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-13 13:12:55- [I] usuario encontrado 
+2024-05-13 13:12:55- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-13 13:13:47- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-13 13:13:47- [I] usuario encontrado 
+2024-05-13 13:13:47- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-13 13:14:21- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-13 13:14:21- [I] usuario encontrado 
+2024-05-13 13:14:21- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-13 13:20:13- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 13:20:13- [I] usuario encontrado 
+2024-05-13 13:20:13- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 13:20:13- [I] Definicion: DAVID 
+2024-05-13 13:20:13- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX187h6LOIqny6UToZloCITRWQQkRnh4rKBI=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 13:22:23- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 13:22:23- [I] usuario encontrado 
+2024-05-13 13:22:23- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 13:22:23- [I] Definicion: DAVID 
+2024-05-13 13:22:23- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: '12345',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 13:23:04- [I] U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w= -  12345
+2024-05-13 13:23:04- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 13:23:04- [I] usuario encontrado 
+2024-05-13 13:23:04- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 13:23:04- [I] Definicion: DAVID 
+2024-05-13 13:23:04- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 13:23:04- [I] El usuario DAVID se ha conectado 
+2024-05-13 13:25:46- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-13 13:25:46- [I] usuario encontrado 
+2024-05-13 13:25:46- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-13 13:25:58- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 13:25:58- [I] usuario encontrado 
+2024-05-13 13:25:58- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 13:25:58- [I] Definicion: DAVID 
+2024-05-13 13:25:58- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: true,
+  __v: 0
+} 
+2024-05-13 13:25:58- [I] El usuario DAVID se ha desconectado 
+2024-05-13 13:26:43- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 13:26:43- [I] usuario encontrado 
+2024-05-13 13:26:43- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 13:26:43- [I] Definicion: DAVID 
+2024-05-13 13:26:43- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 13:26:44- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-13 13:26:44- [I] usuario encontrado 
+2024-05-13 13:26:44- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-13 13:26:58- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-13 13:26:58- [I] usuario encontrado 
+2024-05-13 13:26:58- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-13 13:27:06- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 13:27:06- [I] usuario encontrado 
+2024-05-13 13:27:06- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 13:27:06- [I] Definicion: DAVID 
+2024-05-13 13:27:06- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 13:27:15- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 13:27:15- [I] usuario encontrado 
+2024-05-13 13:27:15- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 13:27:15- [I] Definicion: DAVID 
+2024-05-13 13:27:15- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 13:27:16- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-13 13:27:16- [I] usuario encontrado 
+2024-05-13 13:27:16- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-13 13:27:38- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 13:27:38- [I] usuario encontrado 
+2024-05-13 13:27:38- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 13:27:38- [I] Definicion: DAVID 
+2024-05-13 13:27:38- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 13:27:39- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-13 13:27:39- [I] usuario encontrado 
+2024-05-13 13:27:39- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-13 13:27:50- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 13:27:50- [I] usuario encontrado 
+2024-05-13 13:27:50- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 13:27:50- [I] Definicion: DAVID 
+2024-05-13 13:27:50- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 13:27:51- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-13 13:27:51- [I] usuario encontrado 
+2024-05-13 13:27:51- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-13 13:28:05- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 13:28:05- [I] usuario encontrado 
+2024-05-13 13:28:05- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 13:28:05- [I] Definicion: DAVID 
+2024-05-13 13:28:05- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 13:28:06- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-13 13:28:06- [I] usuario encontrado 
+2024-05-13 13:28:06- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-13 13:29:17- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 13:29:17- [I] usuario encontrado 
+2024-05-13 13:29:17- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 13:29:17- [I] Definicion: DAVID 
+2024-05-13 13:29:17- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 13:29:18- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-13 13:29:18- [I] usuario encontrado 
+2024-05-13 13:29:18- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-13 13:29:29- [I] 6639d12552b13678b74825f3Estp es el id 
+2024-05-13 13:29:29- [I] usuario encontrado 
+2024-05-13 13:29:29- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 

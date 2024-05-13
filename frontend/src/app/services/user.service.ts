@@ -76,11 +76,16 @@ export class UserService {
     const code2 = this.encoding(msj);
     console.log(code2);
     console.log(code1);
-    const decodent1 = this.uncoding("U2FsdGVkX1+4bhm53+8jc7pWr2+n8B2tt9zaTx4VtYw=");
-    const decodent2 = this.uncoding("U2FsdGVkX1+4bhm53+8jc7pWr2+n8B2tt9zaTx4VtYw=");
+    const decodent1 = this.uncoding(code1);
+    const decodent2 = this.uncoding(code2);
     console.log(decodent1);
     console.log(decodent2);
     console.log((decodent1 === decodent2));
+  }
+
+  tryDecode(example){
+    const decoded = this.uncoding(example);
+    console.log(example +"\n" +decoded +" = desencriptado");
   }
   
 
