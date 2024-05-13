@@ -6,12 +6,15 @@ import { LoginComponent } from './componentes/Login/Login.component';
 import { UserListComponent } from './componentes/Login/UserList/UserList.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { ModalModule } from '@developer-partners/ngx-modal-dialog';
+import { ModalComponent } from './componentes/modal/modal.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     UserListComponent,
+    ModalComponent,
   
   ],
   imports: [
