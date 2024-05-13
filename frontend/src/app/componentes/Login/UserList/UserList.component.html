@@ -46,7 +46,7 @@
           </div>
         </div>
         <!--*ngFor="let o of userList"-->
-        
+        <!--
         <div class="row">
           <div class="col-3 bg-info mx-5 my-3" *ngFor="let user of userList; let i = index" [attr.id]="'userDiv' + i" >
         <form (ngSubmit)="updateUser(user._id,name.value, password.value,mail.value, confirmPassword.value)">
@@ -78,7 +78,7 @@
     <div class="row">
       <div class="col-12">
 
-            <table class="table table-dark table-bordered" >
+            <table class="table table-dark table-bordered mt-3" >
 
               <thead>
                 <tr>
@@ -98,8 +98,8 @@
                   <th>{{user.name}}</th>
                   <th>{{user.email }}</th>
                   <th>
-                    <samp *ngIf="user.Estado">Conectado</samp>
-                    <samp *ngIf="!user.Estado">Desconectado</samp>
+                    <samp *ngIf="user.online">En linea</samp>
+                    <samp *ngIf="!user.online">Desconectado</samp>
                   </th>
                   <th><button class="btn btn-block btn-primary  w-100" (click)="loadEdition(user._id, user.name, user.email, user.password, user.passwordConfirm)">Editar</button></th>
 
@@ -108,6 +108,14 @@
               </tbody>
             </table>
 
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <input type="text" class="form-control mt-2" #texto>
+        <button class="btn btn-primary" (click)="encriptar(texto)">encriptar</button>
+        <button class="btn btn-primary" (click)="desencriptar(texto)">desencriptar</button>
       </div>
     </div>
 

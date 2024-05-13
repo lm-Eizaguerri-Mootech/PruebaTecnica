@@ -95,6 +95,20 @@ export class UserListComponent implements OnInit, OnDestroy {
     this.userEditable ={idAux: id,nameAux:name, passwordAux:password, emailAux:email}
   }
 
+  encriptar(msg:string){
+    
+    
+
+    console.log("msg encriptado: " );
+    
+  }
+  
+  desencriptar(code:string){
+    
+
+
+    console.log("msg desencriptado");
+  }
 
 
 
