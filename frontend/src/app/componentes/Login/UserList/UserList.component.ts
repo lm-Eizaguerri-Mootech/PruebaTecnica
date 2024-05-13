@@ -69,6 +69,7 @@ export class UserListComponent implements OnInit, OnDestroy {
     }
     if(name && email && password){
       console.log(password);   
+      password = password+"";
       password = this.encoding(password);
       console.log(password);
       const us:User= { name:name, password: password, email: email, online:false};
@@ -99,8 +100,8 @@ export class UserListComponent implements OnInit, OnDestroy {
 
   loadEdition(id:object, name:string, email:string,password: string,confirmPassword:string){
     console.log(password);
-    password = this.uncoding(password);
-    console.log(password);
+    const auxPass = this.uncoding(password);
+    console.log(auxPass);
     
     
     this.userEditable ={idAux: id,nameAux:name, passwordAux:password, emailAux:email}
@@ -113,6 +114,10 @@ export class UserListComponent implements OnInit, OnDestroy {
   uncoding(code:string):string{
     return this.userService.uncoding(code)
 
+  }
+
+  compare(){
+    this.userService.compare();
   }
 
 }

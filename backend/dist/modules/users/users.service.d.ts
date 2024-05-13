@@ -26,6 +26,7 @@ import { User } from './schemas/user-schema';
 import { Model } from 'mongoose';
 export declare class UsersService {
     private userModel;
+    key: string;
     constructor(userModel: Model<User>);
     createUser(user: any): Promise<import("mongoose").Document<unknown, {}, User> & User & {
         _id: import("mongoose").Types.ObjectId;
@@ -54,4 +55,6 @@ export declare class UsersService {
     getID(id: string): Promise<import("mongoose").Document<unknown, {}, User> & User & {
         _id: import("mongoose").Types.ObjectId;
     }>;
+    encoding(text: string): string;
+    uncoding(code: string): any;
 }

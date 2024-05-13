@@ -45,7 +45,6 @@ export class LoginComponent implements OnInit {
 
     try {
 
-      this.online.password = this.userService.encoding(this.online.password);
 
       const user = await (await this.userService.confirmUser(this.online)).toPromise();
       LoginComponent.user =<User>user;

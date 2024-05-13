@@ -17,9 +17,11 @@ const common_1 = require("@nestjs/common");
 const mongoose_1 = require("@nestjs/mongoose");
 const user_schema_1 = require("./schemas/user-schema");
 const mongoose_2 = require("mongoose");
+const CryptoJS = require("crypto-js");
 let UsersService = class UsersService {
     constructor(userModel) {
         this.userModel = userModel;
+        this.key = "miclavesecreta";
     }
     async createUser(user) {
         const newUser = await this.confirmUser(user.name, user.password, user.email);
@@ -101,12 +103,17 @@ let UsersService = class UsersService {
         }
     }
     async setLoggin(name, password) {
-        const userSeached = await this.userModel.findOne({ name, password });
+        const userSeached = await this.userModel.findOne({ name });
         if (userSeached) {
-            return userSeached.toObject();
+            const decoded = this.uncoding(userSeached.password);
+            console.log(userSeached.password + " - ", +password);
+            if (decoded === password) {
+                return userSeached.toObject();
+            }
+            throw new common_1.ConflictException('No existe ese usuario con esa contraseña');
         }
         else {
-            throw new common_1.ConflictException('No existe ese usuario con esa contraseña');
+            throw new common_1.ConflictException('No existe ese usuario ');
         }
     }
     async logIn_Out(userId) {
@@ -133,6 +140,12 @@ let UsersService = class UsersService {
         }
         else {
         }
+    }
+    encoding(text) {
+        return CryptoJS.AES.encrypt(text, this.key).toString();
+    }
+    uncoding(code) {
+        return CryptoJS.AES.decrypt(code, this.key).toString(CryptoJS.enc.Utf8);
     }
 };
 exports.UsersService = UsersService;

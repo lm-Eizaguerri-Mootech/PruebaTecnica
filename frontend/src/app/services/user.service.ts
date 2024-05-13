@@ -65,10 +65,23 @@ export class UserService {
   }
 
   uncoding(code:string):any{
-    return CryptoJS.AES.decrypt(code,this.key).toString(CryptoJS.enc.Utf8);
+    return CryptoJS.AES.decrypt(code, this.key).toString(CryptoJS.enc.Utf8);
   }
 
- 
+
+  compare(){
+
+    const msj = 1234+""
+    const code1 = this.encoding(msj);
+    const code2 = this.encoding(msj);
+    console.log(code2);
+    console.log(code1);
+    const decodent1 = this.uncoding("U2FsdGVkX1+4bhm53+8jc7pWr2+n8B2tt9zaTx4VtYw=");
+    const decodent2 = this.uncoding("U2FsdGVkX1+4bhm53+8jc7pWr2+n8B2tt9zaTx4VtYw=");
+    console.log(decodent1);
+    console.log(decodent2);
+    console.log((decodent1 === decodent2));
+  }
   
 
 }

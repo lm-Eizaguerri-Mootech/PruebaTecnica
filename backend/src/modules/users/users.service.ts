@@ -3,14 +3,16 @@ import { InjectModel } from '@nestjs/mongoose';
 import { User } from './schemas/user-schema';
 import { Model } from 'mongoose';
 import { UserDto } from './dto/user-dto';
+import * as CryptoJS from 'crypto-js';
 
 
 @Injectable()
 export class UsersService {
 
+  public key:string;
   constructor(
     @InjectModel(User.name) private userModel: Model<User>,
-  ){}
+  ){ this.key="miclavesecreta"; }
 
 
   async createUser(user){
@@ -116,12 +118,18 @@ export class UsersService {
   }
 
   async setLoggin(name:string, password: string){
-    const userSeached = await this.userModel.findOne({name,password});
     
-    if (userSeached){
-      return userSeached.toObject();
-    }else{
+    const userSeached = await this.userModel.findOne({name});
+    
+    if (userSeached ){
+      const decoded = this.uncoding(userSeached.password);
+      console.log(userSeached.password +" - ", +password);
+      if(decoded === password){
+        return userSeached.toObject();
+      }
       throw new ConflictException('No existe ese usuario con esa contraseña')
+    }else{
+      throw new ConflictException('No existe ese usuario ')
     }
   }
   
@@ -151,6 +159,14 @@ export class UsersService {
     }else{
       
     }
+  }
+
+  encoding(text:string):string{
+    return CryptoJS.AES.encrypt(text, this.key).toString();
+  }
+
+  uncoding(code:string):any{
+    return CryptoJS.AES.decrypt(code, this.key).toString(CryptoJS.enc.Utf8);
   }
   
 }
