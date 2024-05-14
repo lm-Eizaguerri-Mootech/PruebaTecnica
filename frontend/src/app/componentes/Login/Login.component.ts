@@ -2,7 +2,6 @@ import { Online } from './../models/online';
 import { Component, OnInit } from '@angular/core';
 import { UserService } from 'src/app/services/user.service';
 import { Router } from '@angular/router';
-import { IUser } from '../interfaces/iuser';
 import { User } from '../models/user';
 
 @Component({
