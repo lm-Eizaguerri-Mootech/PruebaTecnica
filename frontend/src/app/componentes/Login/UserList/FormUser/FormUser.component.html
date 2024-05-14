@@ -9,14 +9,14 @@
           </h2>
           
           <label class="mt-2">Nombre</label>
-          <input type="text" name="name" id="name" class="form-control mt-2" #newName [value]="userSelected.nameAux">
+          <input type="text" name="name" id="name" class="form-control mt-2" #newName [value]="userSelected?.nameAux">
           <span>{{edit}}</span>
           <label class="mt-2">Mail</label>
-          <input type="text" name="mail" id="mail" class="form-control mt-2" #newEmail [value]="userSelected.emailAux">
+          <input type="text" name="mail" id="mail" class="form-control mt-2" #newEmail [value]="userSelected?.emailAux">
           <label class="mt-2">Contraseña</label>
-          <input type="password" name="password" id="password" class="form-control mt-2"  #newPassword [value]="userSelected.passwordAux">
+          <input type="password" name="password" id="password" class="form-control mt-2"  #newPassword [value]="userSelected?.passwordAux">
           <label class="mt-2">Confirmar contraseña</label>
-          <input type="password" name="passwordConfirm" id="passwordconfirm" #newConfirmPassword class="form-control mt-2" [value]="userSelected.passwordAux">
+          <input type="password" name="passwordConfirm" id="passwordconfirm" #newConfirmPassword class="form-control mt-2" [value]="userSelected?.passwordAux">
           
           <div class="row">
             
