@@ -15,6 +15,8 @@ export class UserService {
   public key:string;
   public url:string;
   public listUsers: User[];
+  public userLiked;
+  public miMsg:string;
 
   constructor(private http: HttpClient) { 
     this.url="http://localhost:3085/api/v1/users";

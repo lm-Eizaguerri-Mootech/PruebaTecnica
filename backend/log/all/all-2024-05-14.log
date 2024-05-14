@@ -114,3 +114,24 @@
   online: false,
   __v: 0
 } 
+2024-05-14 11:08:32- [I] {
+  name: 'SARA',
+  password: 'U2FsdGVkX18spfAQO+xkqhNrYqHkCIT+9ogVPNmZDEQ=',
+  email: 'SARA@MAIL.COM',
+  online: false,
+  _id: new ObjectId('66432a10029c6bc28124f94e')
+} 
+2024-05-14 11:08:58- [I] {
+  name: 'MARIA',
+  password: 'U2FsdGVkX1/Oz+SF7N+omYPQiKL3f5lxi8L7xhTdqiU=',
+  email: 'MARIA@MAIL.COM',
+  online: false,
+  _id: new ObjectId('66432a2a029c6bc28124f954')
+} 
+2024-05-14 11:23:19- [I] {
+  name: 'ARANCHA',
+  password: 'U2FsdGVkX18uYFZJnpthpEH10vG3z2YcWlldiX3V2Eo=',
+  email: 'ARANCHA@MAIL.COM',
+  online: false,
+  _id: new ObjectId('66432d87029c6bc28124f95d')
+} 

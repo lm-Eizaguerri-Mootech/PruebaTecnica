@@ -3,7 +3,6 @@ import { Component, ElementRef, OnDestroy, OnInit, QueryList, ViewChildren, Host
 import { UserService } from 'src/app/services/user.service';
 import { UserModel } from '../../models/userModel';
 import { ActivatedRoute, Router } from '@angular/router';
-import { InfoService } from 'src/app/services/info.service';
 
 
 @Component({
@@ -106,23 +105,25 @@ export class UserListComponent implements OnInit, OnDestroy {
     console.log(auxPass);
     
     
-    this.userEditable ={idAux: id,nameAux:name, passwordAux:auxPass, emailAux:email, index:index}
-    const info: InfoService ={_id: id, index: index, name:name, password:password, email:email}
-    this.router.navigate(['form', info]);
+    this.userEditable ={idAux:id, nameAux:name, passwordAux:auxPass, emailAux:email, index:index}
+    this.userService.userLiked = this.userEditable;
+    this.router.navigate(['form']);
   }
 
   showCreate(){
 
+    this.userService.userLiked= null;
     this.router.navigate(['form']);
+    
   }
 
 
   encoding(text:string):string{
-    return this.userService.encoding(text)
+    return this.userService.encoding(text);
   }
 
   uncoding(code:string):string{
-    return this.userService.uncoding(code)
+    return this.userService.uncoding(code);
 
   }
 

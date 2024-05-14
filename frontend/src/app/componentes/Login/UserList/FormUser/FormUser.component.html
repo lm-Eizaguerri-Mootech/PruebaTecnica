@@ -1,0 +1,24 @@
+<div class="row">
+  <div class="col-12">
+    <div class="row ">
+      <div class="col-6 bg-dark bg-gradient text-white mt-4">
+        <form (ngSubmit)="createUser(newName.value, newEmail.value, newPassword.value, newConfirmPassword.value)">
+          <label class="mt-2">Nombre</label>
+          <input type="text" name="name" id="name" class="form-control mt-2" #newName [value]="">
+          <label class="mt-2">Mail</label>
+          <input type="text" name="mail" id="mail" class="form-control mt-2" #newEmail [value]="">
+          <label class="mt-2">Contraseña</label>
+          <input type="password" name="password" id="password" class="form-control mt-2"  #newPassword [value]="">
+          <label class="mt-2">Confirmar contraseña</label>
+          <input type="password" name="passwordConfirm" id="passwordconfirm" #newConfirmPassword class="form-control mt-2">
+          
+          <div class="row">
+              <button class="btn btn-block btn-primary mb-4 mt-4 w-100" type="submit" >Crear</button>
+              <button class="btn btn-block btn-primary mb-4 mt-4 w-100" type="button" (click)="returnList()" >Salir</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
