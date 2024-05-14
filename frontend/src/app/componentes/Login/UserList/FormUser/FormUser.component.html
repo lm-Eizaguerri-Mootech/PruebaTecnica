@@ -1,20 +1,38 @@
 <div class="row">
   <div class="col-12">
     <div class="row ">
-      <div class="col-6 bg-dark bg-gradient text-white mt-4">
-        <form (ngSubmit)="createUser(newName.value, newEmail.value, newPassword.value, newConfirmPassword.value)">
+      <div class="col-12 bg-dark bg-gradient text-white mt-4 w-100">
+        <form>
+          <h2>
+            <span *ngIf="edit">Modificar usuario: {{userSelected.index}}</span>
+            <span *ngIf="!edit">Crear nuevo Usuario </span>
+          </h2>
+          
           <label class="mt-2">Nombre</label>
-          <input type="text" name="name" id="name" class="form-control mt-2" #newName [value]="">
+          <input type="text" name="name" id="name" class="form-control mt-2" #newName [value]="userSelected.nameAux">
+          <span>{{edit}}</span>
           <label class="mt-2">Mail</label>
-          <input type="text" name="mail" id="mail" class="form-control mt-2" #newEmail [value]="">
+          <input type="text" name="mail" id="mail" class="form-control mt-2" #newEmail [value]="userSelected.emailAux">
           <label class="mt-2">Contraseña</label>
-          <input type="password" name="password" id="password" class="form-control mt-2"  #newPassword [value]="">
+          <input type="password" name="password" id="password" class="form-control mt-2"  #newPassword [value]="userSelected.passwordAux">
           <label class="mt-2">Confirmar contraseña</label>
-          <input type="password" name="passwordConfirm" id="passwordconfirm" #newConfirmPassword class="form-control mt-2">
+          <input type="password" name="passwordConfirm" id="passwordconfirm" #newConfirmPassword class="form-control mt-2" [value]="userSelected.passwordAux">
           
           <div class="row">
-              <button class="btn btn-block btn-primary mb-4 mt-4 w-100" type="submit" >Crear</button>
-              <button class="btn btn-block btn-primary mb-4 mt-4 w-100" type="button" (click)="returnList()" >Salir</button>
+            
+              <button class="btn btn-block btn-primary mb-4 mt-4 w-100" *ngIf="edit"
+              (click)="updateUser(userSelected.idAux,newName.value,newPassword.value,newEmail.value,newConfirmPassword.value)">Modificar</button>
+
+              <button class="btn btn-block btn-danger mb-4 mt-4 w-100" *ngIf="edit"
+              (click)="delete(userSelected.nameAux)">Borrar</button>
+
+
+              <!-- *ngIf="!edit" -->
+              {{edit}}
+              <button class="btn btn-block btn-success mb-4 mt-4 w-100" *ngIf="!edit"
+              (click)="createUser(newName.value, newEmail.value, newPassword.value, newConfirmPassword.value)">Crear</button>
+              <button class="btn btn-block btn-warning mb-4 mt-4 w-100" type="button" (click)="returnList()">Salir</button>
+
           </div>
         </form>
       </div>

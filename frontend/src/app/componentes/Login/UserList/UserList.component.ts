@@ -106,8 +106,10 @@ export class UserListComponent implements OnInit, OnDestroy {
     
     
     this.userEditable ={idAux:id, nameAux:name, passwordAux:auxPass, emailAux:email, index:index}
-    this.userService.userLiked = this.userEditable;
-    this.router.navigate(['form']);
+    console.log(this.userEditable);
+    
+    this.router.navigate(['form'], {queryParams: {miUser:JSON.stringify(this.userEditable)}});
+
   }
 
   showCreate(){

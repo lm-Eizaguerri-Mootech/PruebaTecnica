@@ -135,3 +135,54 @@
   online: false,
   _id: new ObjectId('66432d87029c6bc28124f95d')
 } 
+2024-05-14 13:21:47- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-14 13:21:47- [I] usuario encontrado 
+2024-05-14 13:21:47- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-14 13:21:47- [I] Definicion: DAVID 
+2024-05-14 13:21:47- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX18eDtGYhCJY365uHv0iwiYe9ScAAHDidvg=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-14 13:23:35- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-14 13:23:35- [I] usuario encontrado 
+2024-05-14 13:23:35- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-14 13:23:35- [I] Definicion: DEIVID 
+2024-05-14 13:23:35- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DEIVID',
+  password: 'U2FsdGVkX1/UMmVy+/aNQaKpPz4fB8bBkiPXrRnCyy8=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-14 13:34:45- [I] U2FsdGVkX18B031drfHaK1pOzaP0jD28JzOtp946Fl8= -  1234
+2024-05-14 13:34:45- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-14 13:34:45- [I] usuario encontrado 
+2024-05-14 13:34:45- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-14 13:34:45- [I] Definicion: DAVID 
+2024-05-14 13:34:45- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX18B031drfHaK1pOzaP0jD28JzOtp946Fl8=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-14 13:34:45- [I] El usuario DAVID se ha conectado 
+2024-05-14 13:34:47- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-14 13:34:47- [I] usuario encontrado 
+2024-05-14 13:34:47- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-14 13:34:47- [I] Definicion: DAVID 
+2024-05-14 13:34:47- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX18B031drfHaK1pOzaP0jD28JzOtp946Fl8=',
+  email: 'DAVID@MAIL.COM',
+  online: true,
+  __v: 0
+} 
+2024-05-14 13:34:47- [I] El usuario DAVID se ha desconectado 
