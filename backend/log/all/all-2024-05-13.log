@@ -571,3 +571,510 @@
 2024-05-13 13:29:29- [I] 6639d12552b13678b74825f3Estp es el id 
 2024-05-13 13:29:29- [I] usuario encontrado 
 2024-05-13 13:29:29- [I] El id es 6639d12552b13678b74825f3 los datos son 6639d12552b13678b74825f3 
+2024-05-13 14:59:27- [I] U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w= -  12345
+2024-05-13 14:59:27- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 14:59:27- [I] usuario encontrado 
+2024-05-13 14:59:27- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 14:59:27- [I] Definicion: DAVID 
+2024-05-13 14:59:27- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 14:59:27- [I] El usuario DAVID se ha conectado 
+2024-05-13 15:00:52- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 15:00:52- [I] usuario encontrado 
+2024-05-13 15:00:52- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 15:00:52- [I] Definicion: DAVID 
+2024-05-13 15:00:52- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: true,
+  __v: 0
+} 
+2024-05-13 15:00:52- [I] El usuario DAVID se ha desconectado 
+2024-05-13 15:01:33- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 15:01:33- [I] usuario encontrado 
+2024-05-13 15:01:33- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 15:01:33- [I] Definicion: DAVID 
+2024-05-13 15:01:33- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 15:02:27- [I] U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w= -  1234
+2024-05-13 15:02:29- [I] U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w= -  12345
+2024-05-13 15:02:29- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 15:02:29- [I] usuario encontrado 
+2024-05-13 15:02:29- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 15:02:29- [I] Definicion: DAVID 
+2024-05-13 15:02:29- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 15:02:29- [I] El usuario DAVID se ha conectado 
+2024-05-13 15:04:44- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 15:04:44- [I] usuario encontrado 
+2024-05-13 15:04:44- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 15:04:44- [I] Definicion: DAVID 
+2024-05-13 15:04:44- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: true,
+  __v: 0
+} 
+2024-05-13 15:04:44- [I] El usuario DAVID se ha desconectado 
+2024-05-13 15:05:14- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 15:05:14- [I] usuario encontrado 
+2024-05-13 15:05:14- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 15:05:14- [I] Definicion: DAVID 
+2024-05-13 15:05:14- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 15:09:27- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 15:09:27- [I] usuario encontrado 
+2024-05-13 15:09:27- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 15:09:27- [I] Definicion: DAVID 
+2024-05-13 15:09:27- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 15:12:13- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 15:12:13- [I] usuario encontrado 
+2024-05-13 15:12:13- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 15:12:13- [I] Definicion: DAVID 
+2024-05-13 15:12:13- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 15:13:19- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 15:13:19- [I] usuario encontrado 
+2024-05-13 15:13:19- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 15:13:19- [I] Definicion: DAVID 
+2024-05-13 15:13:19- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 15:13:32- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 15:13:32- [I] usuario encontrado 
+2024-05-13 15:13:32- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 15:13:32- [I] Definicion: DAVID 
+2024-05-13 15:13:32- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 15:15:18- [I] {
+  name: 'LUIS',
+  password: 'U2FsdGVkX18EYWGLMijF4cs7uHLl97mkX/hNUWnYQOY=',
+  email: 'LUIS@MAIL.COM',
+  online: false,
+  _id: new ObjectId('664212666ee91b7c884e219d')
+} 
+2024-05-13 15:15:31- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 15:15:31- [I] usuario encontrado 
+2024-05-13 15:15:31- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 15:15:31- [I] Definicion: DAVID 
+2024-05-13 15:15:31- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 15:15:33- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 15:15:33- [I] usuario encontrado 
+2024-05-13 15:15:33- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 15:15:33- [I] Definicion: DAVID 
+2024-05-13 15:15:33- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19mR2/KQyBhFL4TDzV18k/cwhV1N5bxluE=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 15:17:24- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 15:17:24- [I] usuario encontrado 
+2024-05-13 15:17:24- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 15:17:24- [I] Definicion: DAVID 
+2024-05-13 15:17:24- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 15:17:42- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 15:17:42- [I] usuario encontrado 
+2024-05-13 15:17:42- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 15:17:42- [I] Definicion: DAVID 
+2024-05-13 15:17:42- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 15:20:13- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 15:20:13- [I] usuario encontrado 
+2024-05-13 15:20:13- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 15:20:13- [I] Definicion: DAVID 
+2024-05-13 15:20:13- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 15:21:49- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 15:21:49- [I] usuario encontrado 
+2024-05-13 15:21:49- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 15:21:49- [I] Definicion: DAVID 
+2024-05-13 15:21:49- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 15:22:01- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 15:22:01- [I] usuario encontrado 
+2024-05-13 15:22:01- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 15:22:01- [I] Definicion: DAVID 
+2024-05-13 15:22:01- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 15:23:17- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 15:23:17- [I] usuario encontrado 
+2024-05-13 15:23:17- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 15:23:17- [I] Definicion: DAVID 
+2024-05-13 15:23:17- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 15:29:32- [I] U2FsdGVkX18EYWGLMijF4cs7uHLl97mkX/hNUWnYQOY= -  1234
+2024-05-13 15:29:32- [I] 664212666ee91b7c884e219dEstp es el id 
+2024-05-13 15:29:32- [I] usuario encontrado 
+2024-05-13 15:29:32- [I] El id es 664212666ee91b7c884e219d los datos son 664212666ee91b7c884e219d 
+2024-05-13 15:29:32- [I] Definicion: LUIS 
+2024-05-13 15:29:32- [I] {
+  _id: new ObjectId('664212666ee91b7c884e219d'),
+  name: 'LUIS',
+  password: 'U2FsdGVkX18EYWGLMijF4cs7uHLl97mkX/hNUWnYQOY=',
+  email: 'LUIS@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 15:29:32- [I] El usuario LUIS se ha conectado 
+2024-05-13 15:30:17- [I] U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w= -  1234
+2024-05-13 15:30:20- [I] U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w= -  12345
+2024-05-13 15:30:20- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 15:30:20- [I] usuario encontrado 
+2024-05-13 15:30:20- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 15:30:20- [I] Definicion: DAVID 
+2024-05-13 15:30:20- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 15:30:20- [I] El usuario DAVID se ha conectado 
+2024-05-13 15:31:07- [I] U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w= -  12345
+2024-05-13 15:31:08- [I] U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w= -  12345
+2024-05-13 15:31:10- [I] U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w= -  12345
+2024-05-13 15:31:11- [I] U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w= -  12345
+2024-05-13 15:31:11- [I] U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w= -  12345
+2024-05-13 15:33:33- [I] U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w= -  12345
+2024-05-13 15:33:33- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 15:33:33- [I] usuario encontrado 
+2024-05-13 15:33:33- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 15:33:33- [I] Definicion: DAVID 
+2024-05-13 15:33:33- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 15:33:33- [I] El usuario DAVID se ha conectado 
+2024-05-13 15:33:37- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 15:33:37- [I] usuario encontrado 
+2024-05-13 15:33:37- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 15:33:37- [I] Definicion: DAVID 
+2024-05-13 15:33:37- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: true,
+  __v: 0
+} 
+2024-05-13 15:33:37- [I] El usuario DAVID se ha desconectado 
+2024-05-13 15:33:44- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 15:33:44- [I] usuario encontrado 
+2024-05-13 15:33:44- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 15:33:44- [I] Definicion: DAVID 
+2024-05-13 15:33:44- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 15:43:45- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 15:43:45- [I] usuario encontrado 
+2024-05-13 15:43:45- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 15:43:45- [I] Definicion: DAVID 
+2024-05-13 15:43:45- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 15:46:05- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 15:46:05- [I] usuario encontrado 
+2024-05-13 15:46:05- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 15:46:05- [I] Definicion: DAVID 
+2024-05-13 15:46:05- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 15:47:59- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 15:47:59- [I] usuario encontrado 
+2024-05-13 15:47:59- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 15:47:59- [I] Definicion: DAVID 
+2024-05-13 15:47:59- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 15:59:58- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 15:59:58- [I] usuario encontrado 
+2024-05-13 15:59:58- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 15:59:58- [I] Definicion: DAVID 
+2024-05-13 15:59:58- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 16:17:48- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 16:17:48- [I] usuario encontrado 
+2024-05-13 16:17:48- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 16:17:48- [I] Definicion: DAVID 
+2024-05-13 16:17:48- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 16:22:40- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 16:22:40- [I] usuario encontrado 
+2024-05-13 16:22:40- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 16:22:40- [I] Definicion: DAVID 
+2024-05-13 16:22:40- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 16:22:55- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 16:22:55- [I] usuario encontrado 
+2024-05-13 16:22:55- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 16:22:55- [I] Definicion: DAVID 
+2024-05-13 16:22:55- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 16:23:31- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 16:23:31- [I] usuario encontrado 
+2024-05-13 16:23:31- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 16:23:31- [I] Definicion: DAVID 
+2024-05-13 16:23:31- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 16:23:33- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 16:23:33- [I] usuario encontrado 
+2024-05-13 16:23:33- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 16:23:33- [I] Definicion: DAVID 
+2024-05-13 16:23:33- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 16:37:53- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 16:37:53- [I] usuario encontrado 
+2024-05-13 16:37:53- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 16:37:53- [I] Definicion: DAVID 
+2024-05-13 16:37:53- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 16:40:36- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 16:40:36- [I] usuario encontrado 
+2024-05-13 16:40:36- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 16:40:36- [I] Definicion: DAVID 
+2024-05-13 16:40:36- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 16:45:27- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 16:45:27- [I] usuario encontrado 
+2024-05-13 16:45:27- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 16:45:27- [I] Definicion: DAVID 
+2024-05-13 16:45:27- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 16:45:30- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 16:45:30- [I] usuario encontrado 
+2024-05-13 16:45:30- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 16:45:30- [I] Definicion: DAVID 
+2024-05-13 16:45:30- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 16:47:11- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 16:47:11- [I] usuario encontrado 
+2024-05-13 16:47:11- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 16:47:11- [I] Definicion: DAVID 
+2024-05-13 16:47:11- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 16:48:43- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 16:48:43- [I] usuario encontrado 
+2024-05-13 16:48:43- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 16:48:43- [I] Definicion: DAVID 
+2024-05-13 16:48:43- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 16:49:00- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 16:49:00- [I] usuario encontrado 
+2024-05-13 16:49:00- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 16:49:00- [I] Definicion: DAVID 
+2024-05-13 16:49:00- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 
+2024-05-13 16:49:02- [I] 6641f54915cc113889f1c82bEstp es el id 
+2024-05-13 16:49:02- [I] usuario encontrado 
+2024-05-13 16:49:02- [I] El id es 6641f54915cc113889f1c82b los datos son 6641f54915cc113889f1c82b 
+2024-05-13 16:49:02- [I] Definicion: DAVID 
+2024-05-13 16:49:02- [I] {
+  _id: new ObjectId('6641f54915cc113889f1c82b'),
+  name: 'DAVID',
+  password: 'U2FsdGVkX19XaBB5LoZLTiYifCCSA6HX8bxfhrFdA2w=',
+  email: 'DAVID@MAIL.COM',
+  online: false,
+  __v: 0
+} 

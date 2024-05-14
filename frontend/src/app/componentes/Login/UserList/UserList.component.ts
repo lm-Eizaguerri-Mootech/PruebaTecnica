@@ -2,7 +2,8 @@ import { User } from './../../models/user';
 import { Component, ElementRef, OnDestroy, OnInit, QueryList, ViewChildren, HostListener} from '@angular/core';
 import { UserService } from 'src/app/services/user.service';
 import { UserModel } from '../../models/userModel';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
+import { InfoService } from 'src/app/services/info.service';
 
 
 @Component({
@@ -16,18 +17,19 @@ export class UserListComponent implements OnInit, OnDestroy {
 
   public userList: User[];
   public logedUser:any;
-  
+  public modalSwitch: boolean;
   public newUser: UserModel;
-  public userEditable: {idAux:object, nameAux:string, passwordAux: string, emailAux:string}
+  public userEditable: {idAux:object, nameAux:string, passwordAux: string, emailAux:string, index:number}
   
   constructor(
     private userService: UserService,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    private router: Router,
   ) { 
     this.getUsers();
     this.newUser = {name:"", email:"", password:""}
     this.logedUser = null;
-    this.userEditable= {idAux:undefined,nameAux:"", passwordAux:"", emailAux:"",}
+    this.userEditable= {idAux:undefined,nameAux:"", passwordAux:"", emailAux:"", index :0}
     
   }
   
@@ -37,7 +39,7 @@ export class UserListComponent implements OnInit, OnDestroy {
         this.logedUser = JSON.parse(params.miUser);
       }
     })
-    
+   
   }
 
   ngOnDestroy(){
@@ -89,7 +91,7 @@ export class UserListComponent implements OnInit, OnDestroy {
     const userAux= {userId:idAux,userData:{ name:nameAux, password:this.encoding(passwordAux), email:emailAux, online:false}};
     console.log(userAux);
     
-    this.userEditable ={idAux: undefined,nameAux:"", passwordAux:"", emailAux:""};
+    this.userEditable ={idAux: undefined,nameAux:"", passwordAux:"", emailAux:"", index:0};
     return this.userService.updateUser(userAux);
   }
 
@@ -98,14 +100,22 @@ export class UserListComponent implements OnInit, OnDestroy {
     this.refres();
   }
 
-  loadEdition(id:object, name:string, email:string,password){
+  loadEdition(id:object, name:string, email:string,password:string, index:number){
     console.log(password);
     const auxPass = this.uncoding(password);
     console.log(auxPass);
     
     
-    this.userEditable ={idAux: id,nameAux:name, passwordAux:auxPass, emailAux:email}
+    this.userEditable ={idAux: id,nameAux:name, passwordAux:auxPass, emailAux:email, index:index}
+    const info: InfoService ={_id: id, index: index, name:name, password:password, email:email}
+    this.router.navigate(['form', info]);
   }
+
+  showCreate(){
+
+    this.router.navigate(['form']);
+  }
+
 
   encoding(text:string):string{
     return this.userService.encoding(text)

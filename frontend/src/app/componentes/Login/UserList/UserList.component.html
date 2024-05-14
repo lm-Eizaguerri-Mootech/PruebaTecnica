@@ -1,5 +1,9 @@
+
 <div class="row">
   <div class="col-12">
+    
+
+
     <h1 class="text-center">Lista de usuarios</h1>
     <div class="row">
       <div class="col-12 ">
@@ -78,7 +82,7 @@
   -->
     <div class="row">
       <div class="col-12">
-        <button class="btn tn-block btn-primary mt-4 w-100">Crear nuevo usuario</button>
+        <button class="btn tn-block btn-primary mt-4 w-100" (click)="showCreate()">Crear nuevo usuario</button>
       </div>
     </div>
     <div class="row">
@@ -108,7 +112,7 @@
                     <samp *ngIf="user.online">EN LINEA</samp>
                     <samp *ngIf="!user.online">DESCONECTADO</samp>
                   </th>
-                  <th><button class="btn btn-block btn-primary  w-100" (click)="loadEdition(user._id, user.name, user.email, user.password)">Editar</button></th>
+                  <th><button class="btn btn-block btn-primary  w-100" (click)="loadEdition(user._id, user.name, user.email, user.password, i+1)">Editar</button></th>
 
                 </tr>
                 
