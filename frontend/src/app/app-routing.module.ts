@@ -2,7 +2,7 @@ import { LoginComponent } from './componentes/Login/Login.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { UserListComponent } from './componentes/Login/UserList/UserList.component';
-import { ModalComponent } from './componentes/modal/modal.component';
+import { ModalComponent } from './componentes/Login/UserList/modal/modal.component';
 
 
 

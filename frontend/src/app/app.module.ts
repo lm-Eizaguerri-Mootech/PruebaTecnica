@@ -6,7 +6,7 @@ import { LoginComponent } from './componentes/Login/Login.component';
 import { UserListComponent } from './componentes/Login/UserList/UserList.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { ModalComponent } from './componentes/modal/modal.component'
+import { ModalComponent } from './componentes/Login/UserList/modal/modal.component'
 
 @NgModule({
   declarations: [
